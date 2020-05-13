@@ -1,0 +1,46 @@
+body {
+    //background: green;
+    background: url(http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg);
+    background-size:  auto 100vh;
+    //background-size: 100vw;
+    //background-size: 100%;
+    //background-size: 500px 500px;
+    //background: url(https://image.freepik.com/fotos-gratis/3d-abstrato-baixo-poli-com-conexao-de-linhas-e-pontos_1048-11673.jpg);
+    font-family: Arial;
+    height: 100vh;
+  
+    
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    //justify-content: space-between;
+  }
+  
+  .menu li {
+    list-style:none;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
